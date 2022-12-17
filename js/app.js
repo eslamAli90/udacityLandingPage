@@ -128,5 +128,5 @@ window.addEventListener("scroll", () => {
   header.style.display = "block";
   counter = setTimeout(() => {
     header.style.display = "none";
-  }, 2000);
+  }, 4000);
 });

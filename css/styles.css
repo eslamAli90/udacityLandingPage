@@ -129,7 +129,7 @@ section {
             font-size: 30px;
             display: none !important;
 }
-.fa-list:hover + .navbar__menu{
+.page__header:hover .navbar__menu{
    
       display: block;
     
