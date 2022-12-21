@@ -144,6 +144,12 @@ section {
     .navbar__menu li{
         display: block;
     }
+    .top{
+        width: 25px;
+        height: 25px;
+        left: 93%;
+        font-size: 13px;
+    }
 }
 @media only screen and (min-width: 35em){
     .landing__container {
