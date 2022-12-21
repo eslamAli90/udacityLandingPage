@@ -122,20 +122,28 @@ section {
     text-align: left;
 }
 
-.fa-list{
-            color: rgb(76, 76, 196);
-            border: 1px solid black;
-            padding: 4px;
-            font-size: 30px;
-            display: none !important;
+.navbar__icon{
+    width: 50px;
+    height: 50px;
+    padding: 4px;
+    background-color: rgba(0, 13, 60, 1);
+    border:1px solid black;
+    display: none;
 }
-.page__header:hover .navbar__menu{
+.navbar__icon span{
+    width: 46px;
+    height: 3px;
+    display: block;
+    margin-top: 10px;
+    background-color: #fff;
+}
+.navbar__icon:hover + .navbar__menu{
    
       display: block;
     
 }
 @media (max-width:768px ) {
-    .fa-list {
+    .navbar__icon {
        display: inline-block !important;
     }
      .navbar__menu{
@@ -145,10 +153,10 @@ section {
         display: block;
     }
     .top{
-        width: 25px;
-        height: 25px;
-        left: 93%;
-        font-size: 13px;
+        width: 25px !important;
+        height: 25px !important;
+        left: 93% !important;
+        font-size: 13px !important;
     }
 }
 @media only screen and (min-width: 35em){
