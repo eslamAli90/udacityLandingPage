@@ -137,16 +137,15 @@ section {
     margin-top: 10px;
     background-color: #fff;
 }
-.navbar__icon:hover + .navbar__menu{
+ .page__header:hover  .navbar__menu{
    
       display: block;
-    
-}
+} 
 @media (max-width:768px ) {
     .navbar__icon {
        display: inline-block !important;
     }
-     .navbar__menu{
+      .navbar__menu{
         display: none;
     }
     .navbar__menu li{
